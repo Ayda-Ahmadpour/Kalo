@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>فروشگاه کالو</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<!-- <link rel="icon" href="images/logo.png" sizes="16x16" type="image/png"> -->
+	<link href="css/bootstrap.rtl.css" rel="stylesheet" />
+	<link href="css/flickity.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/bt-font.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="mob-head clearfix">
+			<div class="mob-menu-tr">
+				<i class="bt-menu"></i>
+			</div>
+			<div class="mob-logo">
+				<a href="#">
+					<img src="images/logo-b2w.png" alt="">
+					<h1>فروشگاه کالو</h1>
+				</a>
+			</div>
+			<div class="mob-head-acc">
+				<a href="#">
+					<i class="bt-user"></i>
+				</a>
+				<a href="#">
+					<i class="bt-cart"></i>
+				</a>
+			</div>
+			<div class="mob-menu-win">
+				<ul>
+					<li>
+						<a href="#">خانه</a>
+					</li>
+					<li>
+						<a href="#">محصولات</a>
+					</li>
+					<li>
+						<a href="#">حراج</a>
+					</li>
+					<li>
+						<a href="#">بلاگ</a>
+					</li>
+					<li>
+						<a href="#">تماس با ما</a>
+					</li>
+				</ul>
+				<div class="mob-menu-close">
+					<i class="bt-close"></i>
+				</div>
+			</div>
+		</div>
+		<div class="head">
+			<div class="head-top clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="web-setting">
+								<ul>
+									<li class="language dropdown">
+										<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fa fa-globe"></i>
+											<span>فارسی</span>
+											<i class="bt-down"></i>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<a class="dropdown-item" href="#">عربی</a>
+													<a class="dropdown-item" href="#">English</a>
+												</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span>واحد ارزی</span>
+											<i class="bt-down"></i>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">دلار</a>
+												<a class="dropdown-item" href="#">ریال</a>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="account-part">
+								<ul>
+									<li>
+										<a href="#">
+											<i class="bt-user"></i>
+											<span>ورود</span>
+											<span class="sepr-line">|</span>
+											<span>ثبت‌نام</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-heart"></i>
+											<span>لیست علاقمندی‌ها</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="head-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="logo">
+								<a href="#">
+									<img src="images/logo-b2.png" alt="">
+									<h1>کفش کالو</h1>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<div class="cart-part">
+								<a href="#">
+									<i class="bt-cart"></i>
+								</a>
+							</div>
+							<div class="search-part clearfix">
+								<!-- <input type="text" placeholder="جستجو کن" name="" value="" /> -->
+								<button type="button" name="button">
+									<i class="bt-search"></i>
+								</button>
+							</div>
+							<div class="main-menu">
+								<ul>
+									<li>
+										<a href="#">خانه</a>
+									</li>
+									<li>
+										<a href="#">محصولات</a>
+										<!-- <div class="sub-menu">
+	                    <ul class="clearfix">
+	                      <li>
+	                        <a href="#">ابتدایی</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">راهنمایی</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">دبیرستان</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">پیش‌دانشگاهی</a>
+	                      </li>
+	                    </ul>
+	                  </div> -->
+									</li>
+									<li>
+										<a href="#">حراج</a>
+									</li>
+									<li>
+										<a href="#">بلاگ</a>
+									</li>
+									<li>
+										<a href="#">تماس با ما</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="inner-content">
+		<div class="profile-page">
+			<div class="container">
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="profile-nav">
+								<ul>
+									<li >
+										<a href="#">
+											<i class="bt-user"></i>
+											<span>اطلاعات کاربری</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-order-history"></i>
+											<span>سفارش‌های من</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-location"></i>
+											<span>آدرس‌های من</span>
+										</a>
+									</li>
+									<li class="current-page">
+										<a href="#" >
+											<i class="bt-heart"></i>
+											<span>لیست علاقمندی‌ها</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-lock"></i>
+											<span>تغییر رمز عبور</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-logout"></i>
+											<span>خروج از حساب کاربری</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<div class="fave-list">
+								<div class="row">
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-item-one">
+											<div class="product-item-pic">
+												<a href="#">
+													<img src="images/sample-product-07.jpg" alt="" />
+												</a>
+												<div class="product-item-tools">
+													<a href="#">
+														<i class="bt-heart"></i>
+													</a>
+													<a href="#">
+														<i class="bt-shopping-bag"></i>
+													</a>
+												</div>
+												<div class="product-quick">
+													<a href="#">
+														<i class="bt-eye"></i>
+														نمایش سریع
+													</a>
+												</div>
+											</div>
+											<div class="product-item-title">
+												<span>مجلسی</span>
+												<h4>کفش زنانه شیفر</h4>
+											</div>
+											<div class="product-item-price clearfix">
+												<div class="item-price">
+													<span class="ex-price">۵۴۰۰۰ تومان</span>
+													<span>۳۵۰۰۰ تومان</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-top">
+			<div class="guaranty-row">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-support"></i>
+											<span>پشتیبانی ۲۴ ساعته</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-shop"></i>
+											<span>ضمانت اصالت کالا</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-track-order"></i>
+											<span>پیگیری لحظه‌ای سفارش</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-credit-card"></i>
+											<span>پرداخت آنلاین</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="container">
+							<div class="col-sm-4">
+								<div class="footer-about">
+									<h3>فروشگاه کالو</h3>
+									<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+								</div>
+							</div>
+							<div class="col-sm-2 col-sm-offset-1">
+									<div class="footer-col">
+											<h3>اطلاعات</h3>
+											<ul>
+													<li>
+															<a href="#">درباره ما</a>
+													</li>
+													<li>
+															<a href="#">پرسش‌های متداول</a>
+													</li>
+													<li>
+															<a href="#">تماس با ما</a>
+													</li>
+
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-2">
+									<div class="footer-col">
+											<h3>دسترسی سریع</h3>
+											<ul>
+													<li>
+															<a href="#">برند‌ها</a>
+													</li>
+													<li>
+															<a href="/siteuser/login">محصولات</a>
+													</li>
+													<li>
+															<a href="/po/blog">بلاگ</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-3">
+									<div class="footer-col social">
+											<h3>شبکه های اجتماعی</h3>
+											<ul>
+													<li>
+															<a href="#">
+																	<i class="fa fa-instagram"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-paper-plane"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-twitter"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-facebook"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-youtube"></i>
+															</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="copyright">
+						<span>تمامی حقوق متعلق به</span>
+						<a href="#">فروشگاه کالو</a>
+						<span>است.</span>
+						<span>© ۱۳۹۸</span>
+				</div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/modalEffects.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+
+	<script>
+	$('.mob-menu-tr').click(function () {
+        $('.mob-menu-win').addClass('show-up');
+    });
+    $('.mob-menu-close').click(function () {
+        $('.mob-menu-win').removeClass('show-up');
+    });
+
+	$(window).scroll(function () {
+	    if ($(window).scrollTop() >= 80) {
+	        $('header').addClass('fixed-header');
+	    }
+	    else {
+	        $('header').removeClass('fixed-header');
+	    }
+
+			if ($(window).scrollTop() >= 80) {
+	        $('content').addClass('top-padding');
+	    }
+	    else {
+	        $('header').removeClass('top-padding');
+	    }
+	});
+	$( function() {
+    $( "#account-tabs" ).tabs();
+  } );
+
+
+	</script>
+</body>
+
+</html>

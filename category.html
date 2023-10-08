@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>فروشگاه کالو</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<!-- <link rel="icon" href="images/logo.png" sizes="16x16" type="image/png"> -->
+	<link href="css/bootstrap.rtl.css" rel="stylesheet" />
+	<link href="css/flickity.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/bt-font.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="mob-head clearfix">
+			<div class="mob-menu-tr">
+				<i class="bt-menu"></i>
+			</div>
+			<div class="mob-logo">
+				<a href="#">
+					<img src="images/logo-b2w.png" alt="">
+					<h1>فروشگاه کالو</h1>
+				</a>
+			</div>
+			<div class="mob-head-acc">
+				<a href="#">
+					<i class="bt-user"></i>
+				</a>
+				<a href="#">
+					<i class="bt-cart"></i>
+				</a>
+			</div>
+			<div class="mob-menu-win">
+				<ul>
+					<li>
+						<a href="#">خانه</a>
+					</li>
+					<li>
+						<a href="#">محصولات</a>
+					</li>
+					<li>
+						<a href="#">حراج</a>
+					</li>
+					<li>
+						<a href="#">بلاگ</a>
+					</li>
+					<li>
+						<a href="#">تماس با ما</a>
+					</li>
+				</ul>
+				<div class="mob-menu-close">
+					<i class="bt-close"></i>
+				</div>
+			</div>
+		</div>
+		<div class="head">
+			<div class="head-top clearfix">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="web-setting">
+								<ul>
+									<li class="language dropdown">
+										<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fa fa-globe"></i>
+											<span>فارسی</span>
+											<i class="bt-down"></i>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<a class="dropdown-item" href="#">عربی</a>
+													<a class="dropdown-item" href="#">English</a>
+												</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span>واحد ارزی</span>
+											<i class="bt-down"></i>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<a class="dropdown-item" href="#">دلار</a>
+												<a class="dropdown-item" href="#">ریال</a>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="account-part">
+								<ul>
+									<li>
+										<a href="#">
+											<i class="bt-user"></i>
+											<span>ورود</span>
+											<span class="sepr-line">|</span>
+											<span>ثبت‌نام</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bt-heart"></i>
+											<span>لیست علاقمندی‌ها</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="head-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="logo">
+								<a href="#">
+									<img src="images/logo-b2.png" alt="">
+									<h1>کفش کالو</h1>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-9">
+							<div class="cart-part">
+								<a href="#">
+									<i class="bt-cart"></i>
+								</a>
+							</div>
+							<div class="search-part clearfix">
+								<!-- <input type="text" placeholder="جستجو کن" name="" value="" /> -->
+								<button type="button" name="button">
+									<i class="bt-search"></i>
+								</button>
+							</div>
+							<div class="main-menu">
+								<ul>
+									<li>
+										<a href="#">خانه</a>
+									</li>
+									<li>
+										<a href="#">محصولات</a>
+										<!-- <div class="sub-menu">
+	                    <ul class="clearfix">
+	                      <li>
+	                        <a href="#">ابتدایی</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">راهنمایی</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">دبیرستان</a>
+	                      </li>
+	                      <li>
+	                        <a href="#">پیش‌دانشگاهی</a>
+	                      </li>
+	                    </ul>
+	                  </div> -->
+									</li>
+									<li>
+										<a href="#">حراج</a>
+									</li>
+									<li>
+										<a href="#">بلاگ</a>
+									</li>
+									<li>
+										<a href="#">تماس با ما</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="inner-content">
+		<div class="category-content">
+			<div class="category-window">
+				<div class="container">
+					<div class="row category-details">
+						<div class="col-sm-3">
+							<div class="bread-crumb">
+								<a href="#">صفحه اصلی</a>
+								<i class="bt-left"></i>
+								<a href="#" class="current">مجلسی</a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+
+						</div>
+						<div class="col-sm-6">
+							<div class="result-tools">
+								<div class="result-stat">
+									<span>نمایش</span>
+									<span>۱۲</span>
+									<span>محصول</span>
+									<span>از</span>
+									<span>۴۸</span>
+									<span>محصول</span>
+								</div>
+								<div class="sort-results">
+									<span>مرتب‌سازی بر اساس:</span>
+									<select class="" name="">
+										<option value="">پربازدید‌ترین</option>
+										<option value="">پرفروش‌ترین</option>
+										<option value="">گران‌ترین</option>
+										<option value="">ارزان‌ترین</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3 no-padding">
+							<div class="cat-filters">
+								<div class="cat-filter-sec">
+									<h3>بر اساس قیمت</h3>
+									<div class="cat-filter-one range">
+										<div id="price-range-slider"></div>
+										<div class="price-range-text clearfix">
+											<input type="text" class="amout-a" id="amount-a" readonly style="border:0;">
+											<input type="text" class="amout-b" id="amount-b" readonly style="border:0;">
+										</div>
+									</div>
+								</div>
+								<div class="cat-filter-sec">
+									<h3>بر اساس سایز</h3>
+									<div class="cat-filter-one toggle-btn clearfix">
+										<a class="toggle-filter" href="#">۳۵.۵</a>
+										<a class="toggle-filter" href="#">۳۶</a>
+										<a class="toggle-filter down" href="#">۳۶.۵</a>
+										<a class="toggle-filter" href="#">۳۷</a>
+										<a class="toggle-filter" href="#">۳۷.۵</a>
+										<a class="toggle-filter" href="#">۳۸</a>
+										<a class="toggle-filter" href="#">۳۸.۵</a>
+										<a class="toggle-filter" href="#">۳۹</a>
+									</div>
+								</div>
+								<div class="cat-filter-sec">
+									<h3>بر اساس برند</h3>
+									<div class="cat-filter-one filter-check">
+										<input class="inp-cbx" id="cbx" type="checkbox" style="display: none;"/>
+										<label class="cbx" for="cbx"><span>
+									    <svg width="12px" height="10px" viewbox="0 0 12 10">
+									      <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+									    </svg></span><span>فندی</span>
+										</label>
+									</div>
+									<div class="cat-filter-one filter-check">
+										<input class="inp-cbx" id="cbx1" type="checkbox" style="display: none;"/>
+										<label class="cbx" for="cbx1"><span>
+									    <svg width="12px" height="10px" viewbox="0 0 12 10">
+									      <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+									    </svg></span><span>ایو سن لورن</span>
+										</label>
+									</div>
+									<div class="cat-filter-one filter-check">
+										<input class="inp-cbx" id="cbx2" type="checkbox" style="display: none;"/>
+										<label class="cbx" for="cbx2"><span>
+									    <svg width="12px" height="10px" viewbox="0 0 12 10">
+									      <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+									    </svg></span><span>جیمی‌چو</span>
+										</label>
+									</div>
+									<div class="cat-filter-one filter-check">
+										<input class="inp-cbx" id="cbx3" type="checkbox" style="display: none;"/>
+										<label class="cbx" for="cbx3"><span>
+									    <svg width="12px" height="10px" viewbox="0 0 12 10">
+									      <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+									    </svg></span><span>داکتر مارتنز</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-9 no-padding">
+							<div class="row">
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-01.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-02.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-03.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-04.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-05.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-06.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-07.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="product-item-one">
+										<div class="product-item-pic">
+											<a href="#">
+												<img src="images/sample-product-08.jpg" alt="" />
+											</a>
+											<div class="product-item-tools">
+												<a href="#">
+													<i class="bt-heart"></i>
+												</a>
+												<a href="#">
+													<i class="bt-shopping-bag"></i>
+												</a>
+											</div>
+											<div class="product-quick">
+												<a href="#">
+													<i class="bt-eye"></i>
+													نمایش سریع
+												</a>
+											</div>
+										</div>
+										<div class="product-item-title">
+											<span>روزانه</span>
+											<h4>کفش چرم پاشنه بلند زنانه</h4>
+										</div>
+										<div class="product-item-price clearfix">
+											<div class="item-price">
+												<span>۳۵۰۰۰ تومان</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="cat-pagination">
+									<a href="#">
+										<i class="bt-right"></i>
+									</a>
+									<a href="#" >
+										<span>۱</span>
+									</a>
+									<a href="#" class="current-page">
+										<span>۲</span>
+									</a>
+									<a href="#">
+										<span>۳</span>
+									</a>
+									<a href="#">
+										<span>۴</span>
+									</a>
+									<a href="#">
+										<i class="bt-left"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-top">
+			<div class="guaranty-row">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-support"></i>
+											<span>پشتیبانی ۲۴ ساعته</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-shop"></i>
+											<span>ضمانت اصالت کالا</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-track-order"></i>
+											<span>پیگیری لحظه‌ای سفارش</span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="guaranty-one">
+											<i class="bt-credit-card"></i>
+											<span>پرداخت آنلاین</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="container">
+							<div class="col-sm-4">
+								<div class="footer-about">
+									<h3>فروشگاه کالو</h3>
+									<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+								</div>
+							</div>
+							<div class="col-sm-2 col-sm-offset-1">
+									<div class="footer-col">
+											<h3>اطلاعات</h3>
+											<ul>
+													<li>
+															<a href="#">درباره ما</a>
+													</li>
+													<li>
+															<a href="#">پرسش‌های متداول</a>
+													</li>
+													<li>
+															<a href="#">تماس با ما</a>
+													</li>
+
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-2">
+									<div class="footer-col">
+											<h3>دسترسی سریع</h3>
+											<ul>
+													<li>
+															<a href="#">برند‌ها</a>
+													</li>
+													<li>
+															<a href="/siteuser/login">محصولات</a>
+													</li>
+													<li>
+															<a href="/po/blog">بلاگ</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+							<div class="col-sm-3">
+									<div class="footer-col social">
+											<h3>شبکه های اجتماعی</h3>
+											<ul>
+													<li>
+															<a href="#">
+																	<i class="fa fa-instagram"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-paper-plane"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-twitter"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-facebook"></i>
+															</a>
+													</li>
+													<li>
+															<a href="#">
+																	<i class="fa fa-youtube"></i>
+															</a>
+													</li>
+											</ul>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="copyright">
+						<span>تمامی حقوق متعلق به</span>
+						<a href="#">فروشگاه کالو</a>
+						<span>است.</span>
+						<span>© ۱۳۹۸</span>
+				</div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/modalEffects.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+
+	<script>
+	$('.mob-menu-tr').click(function () {
+        $('.mob-menu-win').addClass('show-up');
+    });
+    $('.mob-menu-close').click(function () {
+        $('.mob-menu-win').removeClass('show-up');
+    });
+
+	$(window).scroll(function () {
+	    if ($(window).scrollTop() >= 80) {
+	        $('header').addClass('fixed-header');
+	    }
+	    else {
+	        $('header').removeClass('fixed-header');
+	    }
+
+			if ($(window).scrollTop() >= 80) {
+	        $('content').addClass('top-padding');
+	    }
+	    else {
+	        $('header').removeClass('top-padding');
+	    }
+	});
+	$('.slideshow').flickity({
+		cellAlign: 'center',
+	  contain: true,
+		wrapAround: true,
+		rightToLeft: true,
+		pageDots: true,
+		autoPlay: true
+	});
+	$('.mob-slide-a').flickity({
+		cellAlign: 'center',
+	  contain: true,
+		wrapAround: true,
+		rightToLeft: true,
+		pageDots: true,
+		autoPlay: true
+	});
+	$('.mob-slide-b').flickity({
+		cellAlign: 'center',
+	  contain: true,
+		wrapAround: true,
+		rightToLeft: true,
+		pageDots: true,
+		autoPlay: true
+	});
+
+	$('.slideshow-half').flickity({
+		cellAlign: 'center',
+		contain: true,
+		wrapAround: true,
+		rightToLeft: true,
+		pageDots: true,
+		autoPlay: true
+	});
+	$('.slideshow-half-b').flickity({
+		cellAlign: 'center',
+		contain: true,
+		wrapAround: true,
+		rightToLeft: true,
+		pageDots: true,
+		autoPlay: true
+	});
+
+$('.index-product-caro').flickity({
+	// options
+	cellAlign: 'right',
+	contain: true,
+	wrapAround: true,
+	rightToLeft: true,
+	pageDots: false,
+	prevNextButtons: false,
+	autoPlay: true,
+	imagesLoaded: true
+});
+
+$('#suggested-carousel').flickity({
+	// options
+	cellAlign: 'right',
+	contain: true,
+	wrapAround: true,
+	rightToLeft: true,
+	pageDots: false,
+	prevNextButtons: false,
+	autoPlay: true
+});
+
+var $carousel = $('#suggested-carousel').flickity();
+$('.suggested-controls').on( 'click', '.slide-control', function() {
+  var index = $(this).index();
+  $carousel.flickity( 'select', index );
+});
+
+		var $carousel = $('#suggested-carousel').flickity();
+    $carousel.on('change.flickity', function (event, index) {
+        $(".suggested-controls .slide-control.active").removeClass("active");
+        var selectedSlide = $(".suggested-controls .slide-control")[index];
+        if (selectedSlide != undefined) {
+            $(selectedSlide).addClass("active");
+        }
+    });
+    $('.suggested-controls').on('click', '.slide-control', function () {
+        $(".suggested-controls .slide-control.active").removeClass("active");
+        var index = $(this).index();
+        $carousel.flickity('select', index);
+        var selectedSlide = $(".suggested-controls .slide-control")[index];
+        if (selectedSlide != undefined) {
+            $(selectedSlide).addClass("active");
+        }
+    });
+
+		$( function() {
+		$( "#price-range-slider" ).slider({
+			range: true,
+			min: 0,
+			max: 500,
+			values: [ 75, 300 ],
+			slide: function( event, ui ) {
+				$( "#amount-a" ).val( ui.values[0]  + " تومان");
+				$("#amount-b").val( ui.values[ 1 ] + " تومان")
+			}
+		});
+		$("#amount-a").val( $( "#price-range-slider" ).slider( "values", 0 ) + " تومان" );
+		$( "#amount-b" ).val( $( "#price-range-slider" ).slider( "values", 1 ) + " تومان"  );
+	} );
+
+	$(document).ready(function() {
+	  $('.toggle-filter').click(function() {
+	    $(this).toggleClass("down");
+	  });
+	});
+	</script>
+</body>
+
+</html>
